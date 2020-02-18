@@ -2,6 +2,35 @@
 #include<string.h>
 #include<math.h>
 
+int read();
+int minimum();
+int grade();
+int menudriven();
+int pattern8();
+int reverse();
+int fibo();
+int cocatenat();
+int decre();
+int comp();
+int compstr();
+int numwd1();
+int rev1();
+int floyd();
+int stringequal();
+int pattern7();
+int pattern9();
+int pattern10();
+int pattern11();
+int primenum();
+int addarray();
+int array1();
+int array2();
+int facto();
+float fact(int);
+int sum22(int);
+int sumarray();
+int diagonal();
+int rotate2();
 int freq();
 int salary();
 int calculation();
@@ -49,41 +78,12 @@ int pattern2();
 int pattern3();
 int pattern4();
 int pattern5();
-int read();
-int minimum();
-int grade();
-int menudriven();
-int pattern8();
-int reverse();
-int fibo();
-int primenum();
-int addarray();
-int array1();
-int array2();
-int facto();
-float fact(int);
-int sum22(int);
-int sumarray();
-int diagonal();
-int rotate2();
 int reversestr();
 int lshift();
 int binaryserc();
 int del();
 int ptr();
 int palin();
-int cocatenat();
-int decre();
-int comp();
-int compstr();
-int numwd1();
-int rev1();
-int floyd();
-int stringequal();
-int pattern7();
-int pattern9();
-int pattern10();
-int pattern11();
 int pattern12();
 int pattern13();
 int pattern14();
@@ -104,35 +104,26 @@ void stars(int);
 void spaces(int);
 
 
-void  main()
-{
+void  main(){
     int key;
     printf("enter key");
 scanf("%d",&key);
 
-    switch(key)
-    {
-    case 1:
-        {
+    switch(key){
+    case 1:{
            freq();
            break;
 
         }
-    case 2:
-   {
+    case 2:{
 
     salary();break;
-
-  } 
-    case 3:
-   {
+  }
+    case 3:{
      calculation();break;
-
     }
-    case 4:
-        {
+    case 4:{
      marks();break;
-
     }
     case 5:
 {
